@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+     --template-green: #037171;
+     --cancel-templat-green: #F8F9FA;
+     --text-color:#00B9AE;
+     --header-template-green:#037171;
+     --footer-template-green:#03312E;
+     --btn-whtie:#fff;
+     --btn-search:#037171;
+     --text-search:#FFF;
+     --btn-tag:#E9ECFE;
+     --text-btn-tag:#037171;
+     --text-book-new:#037171;
+     --text-more:#037171;
+     --text-week:#495057;
+     --bg-main: url(/image/bg/bg.svg);
+
+
+     --template-orange: #FF9505;
+     --cancel-templat-orange: #F8F9FA;
+
+     --template-pink: #FB6F92;
+     --cancel-templat-orange: #F8F9FA;
+}
+
+body{
+     font-family: 'Prompt', sans-serif;
+     font-size: 16px;
+}
+.menu_text_color li a{
+     color: var(--btn-whtie);
+}
+.area_but_tag{
+    margin: 7px;
+    width: 100%;
+}
+.btn_tag{
+     background-color: var(--btn-tag);
+     color: var(--text-btn-tag);
+     width: 100%;
+     border-radius: 100px;    
+     font-size: 12px;
+}
+.btn_search{
+     background-color: var(--btn-search);
+     color: var(--text-search);
+     width: 100%;
+     height: 90%;
+     font-weight: 600;
+     border-radius: 5px;
+     padding: 0px;
+}
+.icon_search{
+     position: absolute;
+    z-index: 1;
+    padding: 10px;
+}
+.btn-white {
+     background-color: var(--btn-whtie);
+     width: 30px;
+     height: 30px;
+     border-radius: 100%;
+     padding: 0px;
+ }
+ .btn:hover {
+     color: var(--bs-btn-hover-color);
+     background-color: var(--btn-whtie);
+     border-color: var(--header-template-green);
+ }
+ .bg_main{
+     background-image: var(--bg-main);
+     width: 100%;
+     height: 100vh;
+ }
+ .text_book_new{
+     font-weight: 900;
+     font-size: 50px;
+     color: var(--text-book-new);
+ }
+ .text-week{
+     font-weight: 900;
+     font-size: 50px;
+     color: var(--text-week);
+ }
+ .text_haeader_card{
+     font-size: px;
+     text-align: center;
+ }
+ .but_more{
+     font-weight: 600;
+     color: var(--text-more)
+ }
+ .logo_footer{
+     width: 10%;
+ }
+ .bg_footer{
+     background-color: var(--footer-template-green);
+     height: auto;
+     padding: 10px;
+ }
+ .box_new{
+     background-color: #00B9AE;
+     border-radius: 0px 0px 10px 10px;
+     padding: 15px;
+     position: absolute;
+     width: auto;
+ }
+@media (min-width: 320px) { 
+     .text_search{
+          color: var(--text-color);
+          font-size: 60px;
+     }
+     .text_logo{
+          font-size: 18px;
+     }
+     .bg_menu{
+          background-color: var(--template-green);
+     }
+     .logo{
+          width: 70%;
+          height: auto;
+     }
+     .text_logo_menu{
+          font-weight: 500;
+          font-size: 13px; 
+     }
+     .area_logo{
+          width: 80%;
+          margin: 0px;
+     }
+     .box_logo{
+          width: 30%;
+          margin: 0px;
+     }     
+ }
+
+
+@media (min-width: 768px) {
+     .box_logo{
+          width: 30%;
+          margin: 0px;
+     }
+     .box_logo {
+          width: 16%;
+          margin: 0px;
+      }
+}
+
+@media (min-width: 1024px) { 
+     .box_logo{
+          width: 30%;
+          margin: 0px;
+     }
+     .box_logo {
+          width: 16%;
+          margin: 0px;
+      }
+      .area_logo {
+          width: 30%;
+          margin: 0px;
+      }
+      .text_logo {
+          font-size: 15px;
+          margin-left: 0%;
+      }
+      .logo {
+          width: 100%;
+          height: auto;
+      }
+}
+
+@media (min-width: 1200px) { 
+     .box_logo{
+          width: 30%;
+          margin: 0px;
+     }
+     .box_logo {
+          width: 16%;
+          margin: 0px;
+      }
+      .text_logo {
+          font-size: 28px;
+      }
+      .area_logo {
+          width: 30%;
+          margin: 0px;
+      }
+      .logo {
+          width: 85%;
+          height: auto;
+      }
+      .text_logo {
+          font-size: 20px;
+      }
+ }
+@media (min-width: 1440px) {
+     .box_logo{
+          width: 30%;
+          margin: 0px;
+     }
+     .box_logo {
+          width: 16%;
+          margin: 0px;
+      }
+}
+
