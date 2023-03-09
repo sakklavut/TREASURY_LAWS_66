@@ -106,11 +106,38 @@ body{
      position: absolute;
      width: auto;
  }
+ .area_form{
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .box_view{
+     height: 30px;
+ }
+ .view{
+     font-size: 5px;
+     font-weight: 500;
+     padding: 5px;
+ }
 @media (min-width: 320px) { 
-     .text_search{
+     .view{
+          font-size: 5px;
+          font-weight: 500;
+          padding: 5px;
+      }
+     .text_haeader_card{
+          font-size: 10px;
+          text-align: center;
+      }
+      .text_haeader_card_hit{
+          font-size: 11px;
+          text-align: center;
+      }
+     .text_search {
           color: var(--text-color);
-          font-size: 60px;
-     }
+          font-size: 30px;
+          text-align: center;
+      }
      .text_logo{
           font-size: 18px;
      }
@@ -132,7 +159,34 @@ body{
      .box_logo{
           width: 30%;
           margin: 0px;
-     }     
+     }   
+     .area_but_tag {
+          margin: 0px;
+          width: 100%;
+          margin: 0px 0px 2px 2px;
+      }  
+      .bg_main {
+          height: 30vh;
+          background-repeat: no-repeat;
+          background-size: contain;
+      }
+      .text_book_new{
+          font-weight: 900;
+          font-size: 20px;
+          color: var(--text-book-new);
+      }
+      .text-week{
+          font-weight: 900;
+          font-size: 20px;
+          color: var(--text-week);
+      }
+      .btn_tag {
+          font-size: 5px;
+      }
+      .cover_new{
+          width: 100%;
+          height: auto;
+     }
  }
 
 
@@ -145,6 +199,9 @@ body{
           width: 16%;
           margin: 0px;
       }
+      .bg_main {
+          height: 38vh;
+      }      
 }
 
 @media (min-width: 1024px) { 
@@ -168,12 +225,47 @@ body{
           width: 100%;
           height: auto;
       }
+      .area_form {
+          width: 600px;
+          margin-left: auto;
+          display: flex;
+          margin-right: auto;
+      }
+      .box_from{
+          width: 500px;
+          margin-right: 5px;
+      }
+      .box_btn{
+          width: 100px;
+      }
+      .bg_main {
+          height: 68vh;
+      }
+      .text_book_new{
+          font-size: 50px;
+      }
+      .text-week{
+          font-size: 50px;
+      }
+      .text_haeader_card {
+          font-size: 16px;
+      }
+      .view {
+          font-size: 12px;
+      }
 }
+
 
 @media (min-width: 1200px) { 
      .box_logo{
           width: 30%;
           margin: 0px;
+     }
+     .area_form{
+          width: 460px;
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
      }
      .box_logo {
           width: 16%;
@@ -193,7 +285,23 @@ body{
       .text_logo {
           font-size: 20px;
       }
- }
+    .area_form {
+          width: 700px;
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+     }
+     .box_btn{
+          width: 190px;
+      }
+      .text_search {
+          font-size: 60px;
+      }
+      .text_haeader_card {
+          font-size: 21px;
+      }
+     
+}
 @media (min-width: 1440px) {
      .box_logo{
           width: 30%;
