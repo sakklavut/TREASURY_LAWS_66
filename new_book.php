@@ -10,7 +10,7 @@
                     <img class="cover_new" src="image/book/book_1.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
                          <div>
-                              <img src="icon/eye-solid.svg" alt="">
+                              <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
                               <p class="view">25</p>
@@ -18,7 +18,9 @@
                     </div>
                     <div>
                         <div>
-                              <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                              <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
+                                   <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                              </a>                           
                         </div> 
                     </div>
                </div>
@@ -28,7 +30,7 @@
                     <img  class="cover_new" src="image/book/book_2.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
                          <div>
-                              <img src="icon/eye-solid.svg" alt="">
+                              <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
                              <p class="view">25</p>
@@ -36,7 +38,9 @@
                     </div>
                     <div>
                         <div>
-                              <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                              <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
+                                   <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                              </a>       
                         </div> 
                     </div>
                </div>
@@ -46,7 +50,7 @@
                     <img class="cover_new" src="image/book/book_3.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
                          <div>
-                              <img src="icon/eye-solid.svg" alt="">
+                              <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
                              <p class="view">25</p>
@@ -54,7 +58,9 @@
                     </div>
                     <div>
                         <div>
-                              <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                              <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
+                                   <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                              </a>  
                         </div> 
                     </div>
                </div>
@@ -64,7 +70,7 @@
                     <img class="cover_new" src="image/book/book_4.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
                          <div>
-                              <img src="icon/eye-solid.svg" alt="">
+                              <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
                              <p class="view">25</p>
@@ -72,15 +78,19 @@
                     </div>
                     <div>
                         <div>
-                              <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                              <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
+                                   <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                              </a>  
                         </div> 
                     </div>
                </div>
           </div>
      </div>
      <div class="row">
-          <div class="d-flex justify-content-center">
-               <p class="but_more">อ่านเพิ่มเติม</p>
+          <div class="d-flex justify-content-center btn btn-light btn_more">
+              <a href="http://" target="_blank" title="อ่านเพิ่มเติม">
+                    <p class="but_more">อ่านเพิ่มเติม</p>
+              </a>
           </div>
      </div>
 </div>

@@ -10,7 +10,7 @@
                               <div class="col-xl-9 box_from">
                                    <div class="input-group has-validation">
                                         <span class="input-group-text">
-                                             <img src="/icon/magnifying-glass-solid.svg" alt="">
+                                             <img src="icon/magnifying-glass-solid.svg" alt="">
                                         </span>
                                         <!-- <img class="icon_search" src="/icon/magnifying-glass-solid.svg" alt=""> -->
                                         <input type="text" class="form-control shadow-lg" id="inputsearch" placeholder="ค้นหาหนังสือที่น่าสนใจ" aria-describedby="inputGroupPrepend" srequired>

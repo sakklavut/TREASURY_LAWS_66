@@ -18,28 +18,28 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu_text_color">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">โครงสร้างห้องสมุด</a>
+          <a class="nav-link" aria-current="page" href="#" title="โครงสร้างห้องสมุด">โครงสร้างห้องสมุด</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">หนังสือทั้งหมด</a>
+          <a class="nav-link" href="#"title="หนังสือทั้งหมด" >หนังสือทั้งหมด</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">แนะนำหนังสือ/สอบถาม</a>
+          <a class="nav-link" href="#" title="แนะนำหนังสือ/สอบถาม" >แนะนำหนังสือ/สอบถาม</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ติดต่อเรา</a>
+          <a class="nav-link" href="#" title="ติดต่อเรา">ติดต่อเรา</a>
         </li>
       </ul>
 
       <div class="d-flex">
           <div class="m-1">
                <button type="button" class="btn btn-white">
-                    <img src="icon/magnifying-glass-solid.svg" alt="">
+                    <img src="icon/magnifying-glass-solid.svg" title="ค้นหา" alt="">
                </button>
           </div>
           <div class="m-1">
                <button type="button" class="btn btn-white">
-                    <img src="icon/user-solid.svg" alt="">
+                    <img src="icon/user-solid.svg" title="ข้อมูลส่วนตัว" alt="">
                </button>
           </div>
       </div>
