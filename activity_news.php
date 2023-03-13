@@ -11,16 +11,16 @@
                     <div class="box_new">
                               <a href="http://" target="_blank"><p class="cover_new_heading" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></a>
                               <div class="d-flex">
-                                   <div class="m-1">
+                                   <div class="m-0">
                                         <img class="icon_eye" src="icon/eye-solid.svg" alt="">
                                    </div>
-                                   <div class="m-1">
+                                   <div class="m-0">
                                         <p class="view_new">23</p>
                                    </div>
-                                   <div class="m-1 ml-3">
-                                        <img src="icon/eye-solid.svg" alt="">
+                                   <div class="m-0 ml-3">
+                                         <img src="icon/calendar-regular.svg" alt="">
                                    </div>
-                                   <div class="m-1">
+                                   <div class="m-0">
                                         <p class="day_cover">2 มี.ค. 2566</p>
                                    </div>
                               </div>
@@ -42,7 +42,7 @@
                                              <p class="view_new">23</p>
                                         </div>
                                         <div class="m-0 ml-3">
-                                             <img src="icon/eye-solid.svg" alt="">
+                                             <img src="icon/calendar-regular.svg" alt="">
                                         </div>
                                         <div class="m-0">
                                              <p class="day_cover">2 มี.ค. 2566</p>
@@ -64,7 +64,7 @@
                                              <p class="view_new">23</p>
                                         </div>
                                         <div class="m-0 ml-3">
-                                             <img src="icon/eye-solid.svg" alt="">
+                                              <img src="icon/calendar-regular.svg" alt="">
                                         </div>
                                         <div class="m-0">
                                              <p class="day_cover">2 มี.ค. 2566</p>
@@ -88,7 +88,7 @@
                                              <p class="view_new">23</p>
                                         </div>
                                         <div class="m-0 ml-3">
-                                             <img src="icon/eye-solid.svg" alt="">
+                                             <img src="icon/calendar-regular.svg" alt="">
                                         </div>
                                         <div class="m-0">
                                              <p class="day_cover">2 มี.ค. 2566</p>

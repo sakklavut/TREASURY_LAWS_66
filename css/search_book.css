@@ -1,0 +1,17 @@
+@media (min-width: 320px) { 
+     .area_form_book{
+          width: 1240px;
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+      }
+      .box_name_search{
+          width: 222px;
+      }
+      .name_seach{
+          width: 130px;
+      }
+      .margin_book{
+          margin-top: 20%;
+      }
+  }

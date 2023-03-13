@@ -6,6 +6,7 @@
     <title>ห้องสมุดกรมธนารักษ์</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet"> 
+    <link href="css/search_book.css" rel="stylesheet"> 
     <link rel="icon" href="icon/favicon.ico">
   </head>
   <body>

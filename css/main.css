@@ -103,9 +103,7 @@ body{
      margin: 0px;
      color: var(--text-more)
  }
- .logo_footer{
-     width: 80%;
- }
+
  .bg_footer{
      background-color: var(--footer-template-green);
      height: auto;
@@ -128,12 +126,15 @@ body{
     padding: 15px;
 }
 @media (min-width: 320px) { 
+    .logo_footer{
+        width: 50%;
+    }
     .text_num{
-        font-size: 5px;
+        font-size: 10px;
         padding: 2px;
     }
     .text_footer {
-        font-size: 5px;
+        font-size: 10px;
         padding: 0px;
     }
     .box_footer {
@@ -246,7 +247,7 @@ body{
           text-align: center;
       }
       .text_haeader_card_hit{
-          font-size: 1px;
+          font-size: 10px;
           color: #495057;
           text-align: center;
       }
@@ -298,7 +299,7 @@ body{
           color: var(--text-week);
       }
       .btn_tag {
-          font-size: 5px;
+          font-size: 10px;
       }
       .cover_new{
           width: 100%;
@@ -323,7 +324,7 @@ body{
         font-size: 15px;
     }
     .box_new {
-        top: 65%;
+        top: 68%;
     }
     .icon_more{
         width: 50%;
@@ -440,10 +441,7 @@ body{
         font-size: 10px;
     }
     .box_new {
-        top: 336%;
-    }
-    .box_new {
-        top: 78%;
+        top: 80%;
     }
     .box_new_sub {
         background-color: var(--bg-cover-new);

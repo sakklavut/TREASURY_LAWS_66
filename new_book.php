@@ -9,7 +9,7 @@
                <div>
                     <img class="cover_new" src="image/book/book_1.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
-                         <div>
+                         <div class="me-2">
                               <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
@@ -29,7 +29,7 @@
                <div>
                     <img  class="cover_new" src="image/book/book_2.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
-                         <div>
+                         <div class="me-2"> 
                               <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
@@ -49,7 +49,7 @@
                <div>
                     <img class="cover_new" src="image/book/book_3.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
-                         <div>
+                         <div class="me-2">
                               <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
@@ -69,7 +69,7 @@
                <div>
                     <img class="cover_new" src="image/book/book_4.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
-                         <div>
+                         <div class="me-2">
                               <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
