@@ -386,6 +386,12 @@ body{
 }
 
 @media (min-width: 1024px) { 
+    .area_form_index{
+        width: 830px !important;
+        margin-left: auto;
+        display: flex;
+        margin-right: auto;
+    }
      .box_logo{
           width: 30%;
           margin: 0px;

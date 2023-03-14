@@ -6,7 +6,7 @@
           <div class="d-block">
                <div>
                     <form action="">
-                         <div class="area_form">
+                         <div class="area_form area_form_index">
                               <div class="col-xl-9 box_from">
                                    <div class="input-group has-validation">
                                         <span class="input-group-text">

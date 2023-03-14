@@ -3,7 +3,9 @@
      <div class="area_logo">
           <div class="d-flex">
                <div class="box_logo">
-                    <img class="logo" src="image/logo.png" alt=""> 
+                  <a href="index.php"> 
+                      <img class="logo" src="image/logo.png" alt=""> 
+                  </a>
                </div>
                <div class="box_text_logo">
                     <span class="text-white text_logo">ห้องสมุดกรมธนารักษ์ <br> E-Library</span>
@@ -33,9 +35,11 @@
 
       <div class="d-flex">
           <div class="m-1">
+            <a href="search_sub.php">
                <button type="button" class="btn btn-white">
                     <img src="icon/magnifying-glass-solid.svg" title="ค้นหา" alt="">
                </button>
+            </a>
           </div>
           <div class="m-1">
                <button type="button" class="btn btn-white">

@@ -1,4 +1,4 @@
-<div class="bg_footer mt-5">
+<div class="bg_footer mt-2">
      <div class="container d-flex justify-content-between">
           <div>
                <div class="text-white">
