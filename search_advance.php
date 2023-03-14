@@ -71,7 +71,7 @@
                </button>
           </div>
           <div class="btn_en">
-                <button type="submit" class="btn btn_add mb-3"> 
+                <button class="btn btn_add mb-3 saveBtn"> 
                           <img src="icon/plus-solid_add_advace.svg" class="icon_more" alt="">
                </button>
           </div>
@@ -101,7 +101,6 @@
                <div class="me_form">
                     <div class="d-flex">
                               <select class="form-select mb-2" aria-label="Default select example">
-                                   <label for="" class="name_title">และ</label>
                                         <option selected>และ</option>
                                         <option value="1">หรือ</option>
                                         <option value="2">ไม่ใช่</option>
@@ -109,6 +108,68 @@
                     </div>
                </div>
           </div>
+
+          <div class="form_top" style="display: none" id="myDIV0">
+               <div class="me_form">
+                    <div class="d-flex">
+                         <select class="form-select mb-2" aria-label="Default select example">
+                              <label for="" class="name_title">ชื่อเรื่อง</label>
+                                   <option selected>ชื่อเรื่อง</option>
+                                   <option value="1">เลขทะเบียนหนังสือ</option>
+                                   <option value="2">ISBN</option>
+                                   <option value="3">สำนักพิมพ์</option>
+                                   <option value="3">ชื่อผู้แต่ง</option>
+                                   <option value="3">หัวเรื่อง</option>
+                                   <option value="3">ปีที่เพิมพ์</option>
+                              </select>
+                         </div>
+                    </div>
+               <div class="me_form">
+                    <input class="form-control advance_me" type="text" >
+               </div>
+               <div class="me_form">
+                    <div class="d-flex">
+                              <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>หรือ</option>
+                                        <option value="1">และ</option>
+                                        <option value="2">ไม่ใช่</option>
+                              </select>
+                    </div>
+               </div>
+          </div>
+          <div class="form_top" style="display: none" id="myDIV1">
+               <div class="me_form">
+                    <div class="d-flex">
+                         <select class="form-select mb-2" aria-label="Default select example">
+                              <label for="" class="name_title">ชื่อเรื่อง</label>
+                                   <option selected>ชื่อเรื่อง</option>
+                                   <option value="1">เลขทะเบียนหนังสือ</option>
+                                   <option value="2">ISBN</option>
+                                   <option value="3">สำนักพิมพ์</option>
+                                   <option value="3">ชื่อผู้แต่ง</option>
+                                   <option value="3">หัวเรื่อง</option>
+                                   <option value="3">ปีที่เพิมพ์</option>
+                              </select>
+                         </div>
+                    </div>
+               <div class="me_form">
+                    <input class="form-control advance_me" type="text" >
+               </div>
+               <div class="me_form">
+                    <div class="d-flex">
+                              <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>ไม่ใช่</option>
+                                        <option value="1">หรือ</option>
+                                        <option value="2">ไม่ใช่</option>
+                              </select>
+                    </div>
+               </div>
+          </div>
+
+
+     
+
+
           <div class="form_bm">
                     <div class="d-flex me_form">
                          <label for="" class="name_title">สถานที่</label> 
@@ -313,3 +374,19 @@
           </nav>
      </div>
 </div>
+
+<script>
+btns = document.getElementsByClassName("saveBtn");
+btns[0].addEventListener('click', function() {
+  for (var i = 0; i <= 2; i++) {
+    var id = 'myDIV' + i;
+    var element = document.getElementById(id);
+    var setting = (element) ? element.style.display : '';
+
+    if (setting == 'none') {
+      element.style.display = 'flex';
+      break;
+    }
+  }
+})
+</script>

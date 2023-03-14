@@ -142,3 +142,12 @@
           margin-left: 10px;
       }
  }
+
+ .mystyle {
+     width: 100%;
+     padding: 25px;
+     background-color: coral;
+     color: white;
+     font-size: 25px;
+     box-sizing: border-box;
+   }
