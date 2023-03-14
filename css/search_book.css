@@ -13,6 +13,9 @@
 .page-link{
     color:var(--text-search_results)
 }
+.text_advanced{
+    color: var(--text-search_results);
+}
 @media (min-width: 320px) { 
     .box_search_results{
         margin-top: 10px;
@@ -72,16 +75,10 @@
 
   @media (min-width: 1024px) { 
     .bg_main_search {
-        height: 180px;
+        height: 150px;
     }
     .margin_book {
-        margin-top: 0%;
-    }
-    .bg_main_search {
-        height: 10px;
-    }
-    .margin_book {
-        margin-top: -20%;
+        margin-top: -2%;
     }
     .area_form {
         width: 900px;
@@ -114,7 +111,18 @@
         font-size: 15px;
     }
  }
+
  @media (min-width: 1200px) { 
+    .icon_search_results_w{
+        width: 30px;
+    }
+    .searchresults {
+        color: var(--text-search_results);
+        font-size: 27px;
+    }
+    .box_search_results {
+        margin-top: 30px;
+    }
     .bg_main_search {
         height: 180px;
     }

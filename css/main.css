@@ -27,6 +27,7 @@
 }
 a {
     text-decoration: none;
+    color: var(--text-search);
 }
 body{
      font-family: 'Prompt', sans-serif;

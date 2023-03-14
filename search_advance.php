@@ -8,7 +8,6 @@
                     <form action="">
                          <div class="area_form">
                               <div class="d-flex">
-                                   
                                    <select class="form-select form_title" aria-label="Default select example">
                                    <label for="" class="name_title">ชื่อเรื่อง</label>
                                         <option selected>ชื่อเรื่อง</option>
@@ -33,13 +32,12 @@
                               </div>
                               <div class="d-flex">
                                    <div class="col-xl-3 box_btn">
-                                         <a href="#">
-                                             <button type="submit" class="btn btn_search" title="ค้นหา">
+                                        <button type="submit" class="btn btn_search" title="ค้นหา">
                                              ค้นหา
-                                        </button> </a>
+                                        </button> 
                                    </div>
                                    <div class="col-xl-3 box_btn">
-                                        <button type="submit" class="btn btn_advanced  mb-3" title="ค้นหาขั้นสูง">   <a href="advance_search.php" class="text_advanced"> ค้นหาขั้นสูง </a></button> 
+                                   <a href="#">  <button type="submit" class="btn btn_advanced  mb-3" title="ค้นหาขั้นสูง">ค้นหาขั้นสูง</button> </a>
                                    </div>
                               </div>
                          </div>
@@ -60,15 +58,81 @@
      </div>
 </div>
 <div class="container ">
-     <div class="d-flex box_search_results">
+     <div class="d-flex box_search_advance">
           <div class="me-2">
                <img src="icon/magnifying-glass-solid.svg" class="icon_search_results_w" title="ค้นหา" alt="">
           </div>
           <div class="p-0">
-               <b class="searchresults">ผลการค้นหา</b>
+               <b class="searchresults">การค้นหาขั้นสูง</b>
+          </div>
+          <div class="btn_en">
+                <button type="submit" class="btn btn_add mb-3"> 
+                    <b class="text_EN">EN</b>
+               </button>
+          </div>
+          <div class="btn_en">
+                <button type="submit" class="btn btn_add mb-3"> 
+                          <img src="icon/plus-solid_add_advace.svg" class="icon_more" alt="">
+               </button>
           </div>
      </div>
     <hr style="border: 1px solid #037171;">
+</div>
+<div class="container">
+     <form action="">
+          <div class="form_top">
+               <div class="me_form">
+                    <div class="d-flex">
+                         <select class="form-select mb-2" aria-label="Default select example">
+                              <label for="" class="name_title">ชื่อเรื่อง</label>
+                                   <option selected>ชื่อเรื่อง</option>
+                                   <option value="1">เลขทะเบียนหนังสือ</option>
+                                   <option value="2">ISBN</option>
+                                   <option value="3">สำนักพิมพ์</option>
+                                   <option value="3">ชื่อผู้แต่ง</option>
+                                   <option value="3">หัวเรื่อง</option>
+                                   <option value="3">ปีที่เพิมพ์</option>
+                              </select>
+                         </div>
+                    </div>
+               <div class="me_form">
+                    <input class="form-control advance_me" type="text" >
+               </div>
+               <div class="me_form">
+                    <div class="d-flex">
+                              <select class="form-select mb-2" aria-label="Default select example">
+                                   <label for="" class="name_title">และ</label>
+                                        <option selected>และ</option>
+                                        <option value="1">หรือ</option>
+                                        <option value="2">ไม่ใช่</option>
+                              </select>
+                    </div>
+               </div>
+          </div>
+          <div class="form_bm">
+                    <div class="d-flex me_form">
+                         <label for="" class="name_title">สถานที่</label> 
+                              <select class="form-select mb-2 advance_me_location " aria-label="Default select example">
+                                   <option selected></option>
+                                   <option value="1">หรือ</option>
+                                   <option value="2">ไม่ใช่</option>
+                              </select>
+                    </div>
+                    <div class="d-flex me_form">
+                         <label for="" class="name_title">ภาษา</label> 
+                              <select class="form-select mb-2 advace_me_language" aria-label="Default select example">
+                                   <option selected></option>
+                                   <option value="1">หรือ</option>
+                                   <option value="2">ไม่ใช่</option>
+                              </select>
+                    </div>
+                    <div class="me_form">
+                         <button type="submit" class="btn btn_search but-h advace_me_search" title="ค้นหา">
+                              ค้นหา
+                         </button> 
+                    </div>
+          </div>
+     </form>
 </div>
 <div class="container">
     <div class="row">

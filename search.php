@@ -20,7 +20,7 @@
                                    </div>
                               </div>
                               <div class="col-xl-3 box_btn">
-                                   <button type="submit" class="btn btn_search mb-3">ค้นหา</button>
+                                  <button type="submit" class="btn btn_search mb-3"><a href="search_sub.php"> ค้นหา </a></button> 
                               </div>
                          </div>
                     </form>

@@ -7,6 +7,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet"> 
     <link href="css/search_book.css" rel="stylesheet"> 
+    <link href="css/search_advance.css" rel="stylesheet"> 
     <link rel="icon" href="icon/favicon.ico">
 
     
