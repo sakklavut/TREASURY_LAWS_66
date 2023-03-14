@@ -8,5 +8,14 @@
     <link href="css/main.css" rel="stylesheet"> 
     <link href="css/search_book.css" rel="stylesheet"> 
     <link rel="icon" href="icon/favicon.ico">
+
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
   </head>
   <body>

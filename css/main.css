@@ -238,9 +238,6 @@ body{
         color: #ccc;
         margin-top: 25%;
     }
-      .box_popular {
-        margin: 5px 5px 5px 5px;
-    }
      .text_haeader_card{
           font-size: 10px;
           color: #495057;
@@ -511,9 +508,6 @@ body{
       .text_haeader_card {
           font-size: 21px;
       }
-      .box_popular{
-        margin: 10px 0px 50px 50px;
-     }
      
 }
 @media (min-width: 1440px) {
