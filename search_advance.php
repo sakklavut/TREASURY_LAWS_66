@@ -4,6 +4,9 @@
                <h1 class="text_search">ค้นหาหนังสือ</h1>
           </div>
           <div class="d-block">
+               <div class="icon_back">
+                   <a href=""><img src="icon/circle-arrow-left-solid.svg" alt=""></a> 
+               </div>
                <div>
                     <form action="">
                          <div class="area_form">
@@ -66,32 +69,33 @@
                <b class="searchresults">การค้นหาขั้นสูง</b>
           </div>
           <div class="btn_en">
-                <button type="submit" class="btn btn_add mb-3"> 
+                <button type="submit" class="btn btn_add mb-3" onclick="EN()"> 
                     <b class="text_EN">EN</b>
-               </button>
-          </div>
-          <div class="btn_en">
-                <button class="btn btn_add mb-3 saveBtn"> 
-                          <img src="icon/plus-solid_add_advace.svg" class="icon_more" alt="">
                </button>
           </div>
      </div>
     <hr style="border: 1px solid #037171;">
 </div>
 <div class="container">
+     <div class="btn_en_add">
+                <button class="btn btn_add mb-3 saveBtn"> 
+                          <img src="icon/plus-solid_add_advace.svg" class="icon_more" alt="">
+               </button>
+     </div>
      <form action="">
           <div class="form_top">
+               
                <div class="me_form">
                     <div class="d-flex">
                          <select class="form-select mb-2" aria-label="Default select example">
-                              <label for="" class="name_title">ชื่อเรื่อง</label>
-                                   <option selected>ชื่อเรื่อง</option>
-                                   <option value="1">เลขทะเบียนหนังสือ</option>
-                                   <option value="2">ISBN</option>
-                                   <option value="3">สำนักพิมพ์</option>
-                                   <option value="3">ชื่อผู้แต่ง</option>
-                                   <option value="3">หัวเรื่อง</option>
-                                   <option value="3">ปีที่เพิมพ์</option>
+                              <label for=""  class="name_title" id="title">ชื่อเรื่อง</label>
+                                   <option selected  id="title">ชื่อเรื่อง</option>
+                                   <option value="1" id="number_book">เลขทะเบียนหนังสือ</option>
+                                   <option value="2" id="I1">ISBN</option>
+                                   <option value="4" id="publisher">สำนักพิมพ์</option>
+                                   <option value="5" id="author_name">ชื่อผู้แต่ง</option>
+                                   <option value="6" id="heading">หัวเรื่อง</option>
+                                   <option value="7" id="year">ปีที่เพิมพ์</option>
                               </select>
                          </div>
                     </div>
@@ -101,14 +105,14 @@
                <div class="me_form">
                     <div class="d-flex">
                               <select class="form-select mb-2" aria-label="Default select example">
-                                        <option selected>และ</option>
+                                        <option selected id="and">และ</option>
                                         <option value="1">หรือ</option>
                                         <option value="2">ไม่ใช่</option>
                               </select>
                     </div>
                </div>
           </div>
-
+          
           <div class="form_top" style="display: none" id="myDIV0">
                <div class="me_form">
                     <div class="d-flex">
@@ -141,7 +145,7 @@
                <div class="me_form">
                     <div class="d-flex">
                          <select class="form-select mb-2" aria-label="Default select example">
-                              <label for="" class="name_title">ชื่อเรื่อง</label>
+                              <label for="" class="name_title" id="title">ชื่อเรื่อง</label>
                                    <option selected>ชื่อเรื่อง</option>
                                    <option value="1">เลขทะเบียนหนังสือ</option>
                                    <option value="2">ISBN</option>
@@ -172,7 +176,7 @@
 
           <div class="form_bm">
                     <div class="d-flex me_form">
-                         <label for="" class="name_title">สถานที่</label> 
+                         <label for="" class="name_title" id="location"> สถานที่</label> 
                               <select class="form-select mb-2 advance_me_location " aria-label="Default select example">
                                    <option selected></option>
                                    <option value="1">หรือ</option>
@@ -180,7 +184,7 @@
                               </select>
                     </div>
                     <div class="d-flex me_form">
-                         <label for="" class="name_title">ภาษา</label> 
+                         <label for="" class="name_title" id="language">ภาษา</label> 
                               <select class="form-select mb-2 advace_me_language" aria-label="Default select example">
                                    <option selected></option>
                                    <option value="1">หรือ</option>
@@ -389,4 +393,26 @@ btns[0].addEventListener('click', function() {
     }
   }
 })
+
 </script>
+
+<script>
+
+const a1=document.getElementById('location');
+const a2=document.getElementById('language');
+const a3=document.getElementById('title');
+const a4=document.getElementById('number_book');
+
+const b1=document.getElementByid('and');
+
+function EN(){
+     a1.innerText="location";
+     a2.innerText="language";
+     a3.innerText="title";
+     a4.innerText="book number";
+
+
+     b1.innerText="location";
+}
+</script>
+

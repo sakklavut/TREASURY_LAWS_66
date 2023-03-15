@@ -1,4 +1,14 @@
 @media (min-width: 320px) { 
+     .btn_en{
+          margin-left: auto;
+      }
+     .margin_book {
+          margin-top: 25%;
+      }
+      .icon_back{
+          position: absolute;
+          top: 13%;
+      }
      .btn_search {
           background-color: var(--btn-search);
           color: var(--text-search);
@@ -11,15 +21,14 @@
       .but-h{
           height: 40px;
       }
-    .btn_en{
+    .btn_en_add{
           width: 60px;
           margin-left: 100px;
-          /* background: linear-gradient(66.26deg, #5E60CE 6.86%, #80FFDB 100%); */
     }
-    .box_search_advance{
-          margin-top: 10px;
-          height: 20px;
-    }
+    .box_search_advance {
+     margin-top: 32px;
+     height: 20px;
+ }
     .text_EN{
       color: blueviolet;
     }
@@ -76,7 +85,7 @@
      }
 }
   
-@media (min-width: 1200px) { 
+/* @media (min-width: 1200px) { 
      .box_search_advance{
           margin-top: 31px;
           height: 20px;
@@ -99,8 +108,14 @@
      .advace_me_search{
           width: 260px; 
      }
+     .btn_en {
+          width: 60px;
+          margin-left: 10px;
+          position: absolute;
+          left: 40%;
+     }
 }
-  
+   */
   
 
  @media (min-width: 1440px) { 
@@ -137,17 +152,34 @@
           margin-left: 111%;
           margin-bottom: 20px;
      }
-     .btn_en {
+     .btn_en_add {
           width: 60px;
           margin-left: 10px;
+          position: absolute;
+          left: 41%;
+      }
+      .btn_en{
+          margin-left: auto;
+      }
+      .icon_back{
+          position: absolute;
+          top: 13%;
       }
  }
 
- .mystyle {
-     width: 100%;
-     padding: 25px;
-     background-color: coral;
-     color: white;
-     font-size: 25px;
-     box-sizing: border-box;
-   }
+
+ @media (min-width: 1600px) { 
+     .btn_en_add {
+          width: 60px;
+          margin-left: 10px;
+          position: absolute;
+          left: 43%;
+      }
+      .btn_en{
+          margin-left: auto;
+      }
+      .icon_back{
+          position: absolute;
+          top: 10%;
+      }
+ }
