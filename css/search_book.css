@@ -1,10 +1,10 @@
 :root{
-    --btn_advanced:#F8F9FA;
+    --btn_advanced:#e5e5e5;
     --text-advanced:#00B9AE;
     --text-search_results:#037171;
 }
 
-.searchresults{
+.search_results{
     color:var(--text-search_results)
 }
 .bg_main_search {
@@ -16,167 +16,76 @@
 .text_advanced{
     color: var(--text-search_results);
 }
+
+.hr_search{
+    border: 2px solid #037171;
+    margin: 2px;
+}
+
 @media (min-width: 320px) { 
-    .box_search_results{
-        margin-top: 10px;
+    .box_all{
+        margin-top: 2%;
     }
     .bg_main_search {
         height: 240px;
     }
-     .area_form_book{
-          width: 1240px;
-          margin-left: auto;
-          margin-right: auto;
-          display: flex;
-      }
-      .box_name_search{
-          width: 222px;
-      }
-      .name_seach{
-          width: 130px;
-      }
-      .margin_book{
-          margin-top: 10%;
-      }
-      .name_title{
-        width: 30%;
-        padding: 3%;
-      }
+
       .form_title{
         margin-bottom: 10px;
       }
       .form_search{
         margin-bottom: 10px;
       }
+      .box_btn{
+        width: 300px;
+        margin: 2px;
+    }
       .btn_search {
         background-color: var(--btn-search);
         color: var(--text-search);
         width: 100%;
-        height: 90%;
+        height: 100%;
         font-weight: 600;
         border-radius: 5px;
         padding: 0px;
-    }
-    .box_btn{
-        width: 300px;
-        margin: 2px;
     }
     .btn_advanced{
         background-color: var(--btn_advanced);
         color: var(--text-advanced);
         width: 100%;
-        height: 90%;
+        height: 100%;
         font-weight: 600;
         border-radius: 5px;
         padding: 0px;
     }
   }
-
-
-  @media (min-width: 1024px) { 
-    .bg_main_search {
-        height: 150px;
-    }
-    .margin_book {
-        margin-top: -2%;
-    }
-    .area_form {
-        width: 900px;
-    }
+  @media (min-width: 768px) { 
     .btn_search {
-        width: 100%;
+        padding: 5px;
     }
     .btn_advanced{
-        width: 100%;
-    }
-    .box_btn {
-        width: 81px;
-        height: 40px;
-    }
-    .form_title {
-        width: 190px;
-        height: 40px;
-        margin-right: 4px;
-    }
-    .box_from {
-        width: 530px;
-        margin-right: 5px;
-    }
-    .tag_search{
-        width: 40%;
-        position: absolute;
-        left: 25%;
-    }
-    .btn_tag {
-        font-size: 15px;
-    }
- }
-
- @media (min-width: 1200px) { 
-    .icon_search_results_w{
-        width: 30px;
-    }
-    .searchresults {
-        color: var(--text-search_results);
-        font-size: 27px;
-    }
-    .box_search_results {
-        margin-top: 30px;
-    }
-    .bg_main_search {
-        height: 180px;
-    }
-    .margin_book {
-        margin-top: -1%;
-    }
-    .bg_main_search {
-        width: 1444px;
-        height: 212px;
-    }
-    .margin_book {
-        margin-top: -20%;
-    }
-    .tag_search {
-        left: 21%;
-    }
-    .margin_book {
-        margin-top: 0%;
-    }
-    .area_form {
-        width: 1200px;
-    }
-    .margin_book {
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-    .box_btn {
-        width: 181px;
-        height: 40px;
-    }
-    .box_from {
-        width: 732px;
-        margin-right: 5px;
-    }
- }
- @media (min-width: 1600px) { 
-    .bg_main_search {
-        /* width: 95%; */
-        width: 1800px;
-        height: 212px;
-    }
-    .tag_search {
-        left: 22%;
-    }
-    .area_but_tag {
-        width: 26%;
-        margin: 0px 0px 2px 2px;
-    }
-    .box_from {
-        width: 732px;
-        margin-right: 5px;
-    }
-    .margin_book {
-        margin-top: 2%;
-        margin-bottom: 2%;
+        padding: 5px;
     }
 }
+
+  @media (min-width: 1440px) { 
+    .icon_search_results_w{
+        width: 100%;
+    }
+    .box_search_results{
+        width: 15%;
+        padding-top: 14px;
+    }
+    .box_icon_search{
+        width: 4%;
+        padding: 10px;
+    }
+    .btn_search {
+        padding: 5px;
+    }
+    .btn_advanced{
+        padding: 5px;
+    }
+}
+
+  

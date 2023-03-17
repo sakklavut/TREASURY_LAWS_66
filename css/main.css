@@ -40,10 +40,7 @@ body{
     margin: 0px;
     padding: 10px;
 }
-.area_but_tag{
-    margin: 7px;
-    width: 100%;
-}
+
 .btn_tag{
      background-color: var(--btn-tag);
      color: var(--text-btn-tag);
@@ -276,11 +273,6 @@ body{
           width: 30%;
           margin: 0px;
      }   
-     .area_but_tag {
-          margin: 0px;
-          width: 100%;
-          margin: 0px 0px 2px 2px;
-      }  
       .bg_main {
           height: 30vh;
           background-repeat: no-repeat;
