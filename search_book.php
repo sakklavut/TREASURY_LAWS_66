@@ -1,7 +1,7 @@
 <div class="container">
      <div class="row">
           <div class="col-xl-12 p-2 text-right">
-                <a href=""><img src="icon/circle-arrow-left-solid.svg" alt=""></a> 
+                <a href="index.php"><img src="icon/circle-arrow-left-solid.svg" alt=""></a> 
           </div>
      </div>
      <div class="row">
@@ -49,10 +49,10 @@
           <div class="col-12 col-sm-4">
                <div class="row">
                     <div class="col-sm-6">
-                          <a href="#"><button type="submit" class="btn btn_search box_btn" title="ค้นหา">ค้นหา</button> </a>
+                          <a href="search_sub.php"><button type="submit" class="btn btn_search box_btn" title="ค้นหา">ค้นหา</button> </a>
                     </div>  
                     <div class="col-sm-6">
-                          <a href="#"><button type="submit" class="btn btn_advanced box_btn" title="ค้นหาขั้นสูง">ค้นหาขั้นสูง</button> </a>
+                          <a href="advance_search.php"><button type="submit" class="btn btn_advanced box_btn" title="ค้นหาขั้นสูง">ค้นหาขั้นสูง</button> </a>
                     </div>  
                </div>
           </div>
