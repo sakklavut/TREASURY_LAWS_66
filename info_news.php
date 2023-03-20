@@ -1,58 +1,7 @@
 <?php include('comtop.php'); ?>
 <?php include('header.php'); ?>
 
-
-<!-- <div>
-     <div>
-          bg_info_news
-     </div>
-</div> -->
-
-<!-- <div class="box_info_news">
-     <div class="">
-          <img class="cover_new blur" src="image/bg/bg_info_news.svg" alt="">
-     </div>
-     <div class="container">
-          <div class="row position_icon">
-               <div class="col-xl-12 p-2 text-right">
-                    <a href="index.php"><img src="icon/circle-arrow-left-solid.svg" alt=""></a> 
-               </div>
-          </div>
-          <div class="row position_cover">
-               <div class="col-xl-4"> 
-                     <img class="cover_new " src="image/new/cover_info_.svg" alt="">
-               </div>
-               <div class="col-xl-8 margin_info_news">
-                   <div class="row">
-                         <div class="col-xl-12">
-                              <h4 class="text-white">
-                                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                              </h4>
-                         </div>
-                   </div>
-                   <div class="row">
-                         <div class="col-xl-12">
-                             <div class="d-flex">
-                                   <div class="p-1">
-                                        <img src="icon/eye-solid_info.svg" alt="">
-                                   </div>
-                                   <div class="p-1 text-white">
-                                        23
-                                   </div>
-                                   <div class="p-1">
-                                        <img src="icon/calendar-regular_info.svg" alt="">
-                                   </div>
-                                   <div class="p-1 text-white">
-                                         2 มี.ค. 2566
-                                   </div>
-                             </div>
-                         </div>
-                   </div>
-               </div>
-          </div>
-     </div>
-</div> -->
- <section class=" bg_info_news"> 
+ <section class="bg_info_news"> 
      <div class="container">
           <div class="row">
                <div class="col-xl-12 p-2 text-right">
@@ -132,10 +81,10 @@
           <div class="row">
                <div class="col-xl-12 col-12 shadow-sm">
                <div class="row">
-                    <div class="col-xl-1 col-2 p-1">
+                    <div class="col-xl-1 col-2 col-md-1 p-1">
                          <img src="icon/Download pdf.svg" alt="">
                     </div>
-                    <div class="col-xl-11 col-10">
+                    <div class="col-xl-11 col-10 col-md-11">
                          <div class="row">
                               <div class="col-xl-12 col-10 p-1">
                                    <p class="m-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
