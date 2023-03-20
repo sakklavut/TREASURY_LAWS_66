@@ -1,0 +1,107 @@
+.showme {
+     display: none;
+   }
+   .showhim:hover .showme {
+     display: block;
+     background-color: var(--bg-cover-new);
+     border-radius: 0px 0px 5px 5px;
+     
+     width: 100%;
+     top: 81%;
+     opacity: 0.9;
+     padding-left: 15px;
+     height: 19%;
+     padding-top: 15px;
+}
+.showhim:hover .showme_1{
+    
+     background-color: var(--bg-cover-new);
+     border-radius: 0px 0px 5px 5px;
+     position: absolute;
+     width: 100%;
+     top: 50%;
+     opacity: 0.9;
+     padding-left: 15px;
+     height: 19%;
+     padding-top: 15px;
+}
+@media (min-width: 320px) { 
+     .margin_more_news{
+          margin-top: 1%;
+          margin-bottom: 1%;
+     }
+     .box_new_more_sub {
+          background-color: var(--bg-cover-new);
+          border-radius: 0px 0px 5px 5px;
+          position: absolute;
+          opacity: 0.9;
+          top: 64%;
+          height: 40%;
+          width: 100%;
+          padding-left: 15px;
+          padding-top: 15px;
+      }
+}
+
+@media (min-width: 768px) { 
+     .margin_more_news{
+          margin-top: 1%;
+          margin-bottom: 1%;
+     }
+     .box_new_more_sub {
+          background-color: var(--bg-cover-new);
+          border-radius: 0px 0px 5px 5px;
+          position: absolute;
+          opacity: 0.9;
+          top: 64%;
+          height: 40%;
+          width: 100%;
+          padding-left: 15px;
+          padding-top: 15px;
+      }
+}
+
+
+@media (min-width: 1440px) {
+     .margin_more_news{
+          margin-top: 1%;
+          margin-bottom: 1%;
+     }
+     .box_new_more_news {
+          background-color: var(--bg-cover-new);
+          border-radius: 0px 0px 5px 5px;
+          position: absolute;
+          width: 100%;
+          top: 81%;
+          opacity: 0.9;
+          padding-left: 15px;
+          height: 19%;
+          padding-top: 15px;
+      }
+      .box_new_more_sub {
+          background-color: var(--bg-cover-new);
+          border-radius: 0px 0px 5px 5px;
+          position: absolute;
+          opacity: 0.9;
+          top: 64%;
+          height: 40%;
+          width: 100%;
+          padding-left: 15px;
+          padding-top: 15px;
+      }
+      .box_new_more_sub:hover{
+          background-color:var(--btn-hover);
+      }
+      /* .box_new_more_news:hover {
+          background-color: var(--bg-cover-new);
+          border-radius: 0px 0px 5px 5px;
+          position: absolute;
+          width: 100%;
+          display: flex;
+          top: 81%;
+          opacity: 0.9;
+          padding-left: 15px;
+          height: 19%;
+          padding-top: 15px;
+      } */
+}

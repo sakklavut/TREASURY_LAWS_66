@@ -103,7 +103,7 @@
                                    <img  class="cover_new"  src="image/new/cover_new_4.svg" alt="">
                                    <div class="box_new_sub_more">
                                         <div class="text-center margin_more">
-                                             <a href="" target="_blank" title="ดูเพิ่มเติม">
+                                             <a href="more_News.php" target="_blank" title="ดูเพิ่มเติม">
                                                   <div>
                                                        <img src="icon/plus-solid.svg" class="icon_more" alt="">
                                                   </div>

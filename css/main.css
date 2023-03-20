@@ -25,6 +25,7 @@
      --template-pink: #FB6F92;
      --cancel-templat-orange: #F8F9FA;
 }
+
 a {
     text-decoration: none;
     color: var(--text-search);
