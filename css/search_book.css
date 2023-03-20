@@ -19,7 +19,7 @@
 
 .hr_search{
     border: 2px solid #037171;
-    margin: 2px;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 320px) { 

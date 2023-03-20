@@ -1,10 +1,21 @@
-.btn_en{
-     background-color: #fff;
-     width: 100%;
-}
-.text_EN{
-     background: linear-gradient(66.26deg, #5E60CE 6.86%, #80FFDB 100%);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     background-clip: text;
+ @media (min-width: 320px) {
+     .margin_search_results{
+          margin-top: 20px;
+     }
+     .btn_en{
+          background-color: #fff;
+          width: 100%;
+     }
+     .text_EN{
+          background: linear-gradient(66.26deg, #5E60CE 6.86%, #80FFDB 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+     }
+     .btn_add{
+          background-color: var(--btn_advanced);
+     }
+     .icon_add {
+          width: 25%;
+      }
 }

@@ -48,15 +48,7 @@ body{
      border-radius: 100px;    
      font-size: 12px;
 }
-.btn_search{
-     background-color: var(--btn-search);
-     color: var(--text-search);
-     width: 100%;
-     height: 90%;
-     font-weight: 600;
-     border-radius: 5px;
-     padding: 0px;
-}
+
 .icon_search{
      position: absolute;
     z-index: 1;
@@ -124,6 +116,25 @@ body{
     padding: 15px;
 }
 @media (min-width: 320px) { 
+    .margin_sm{
+        margin-top: 15px;
+    }
+    .box_session {
+        margin-bottom: 20px;
+        margin-top: 31px;
+    }
+    .btn_search_main {
+        background-color: var(--btn-search);
+        color: var(--text-search);
+        width: 100%;
+        height: 100%;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 0px;
+    }
+    .box_search{
+        width: 300px;
+    }
     .logo_footer{
         width: 50%;
     }
@@ -213,10 +224,6 @@ body{
         padding: 6px;
         margin-bottom: 30px;
     }
-    .box_session {
-        margin-bottom: 20px;
-        margin-top: -10px;
-    }
     .more_but_new {
         background-color: var(--bg-cover-new);
         border-radius: 5px 5px 5px 5px;
@@ -301,6 +308,19 @@ body{
  }
 
 @media (min-width: 768px) {
+    .btn_search_main {
+        background-color: var(--btn-search);
+        color: var(--text-search);
+        width: 100%;
+        height: 50%;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 0px;
+        /* margin-top: 5px; */
+    }
+    .box_search{
+        width: 768px;
+    }
     .logo_footer {
         width: 80%;
     }
@@ -510,6 +530,18 @@ body{
      
 }
 @media (min-width: 1440px) {
+    .btn_search_main {
+        background-color: var(--btn-search);
+        color: var(--text-search);
+        width: 100%;
+        height: 50%;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 0px;
+    }
+    .box_search{
+        width:1320px;
+    }
      .box_logo{
           width: 30%;
           margin: 0px;
