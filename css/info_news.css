@@ -5,13 +5,98 @@
 .bg_info_news{
      background-image: var(--bg-info-news);
      width: 100%;
-     height: 100vh;
+     height: 57vh;
+     /* filter: blur(11px); */
      background-repeat: no-repeat;
-    background-size: contain;
-    opacity: 0.4;
-    filter: alpha(opacity=40);
+     background-size: contain;
  }
-
+ .blur{
+      filter: blur(11px);
+ }
  .text_download{
      color: var(--text-download);
  }
+
+ @media (min-width: 320px) { 
+     .margin_info_news {
+          margin-top: -35%;
+      }
+      .bg_info_news {
+          background-image: var(--bg-info-news);
+          width: 100%;
+          height: 40vh;
+          /* filter: blur(11px); */
+          background-repeat: no-repeat;
+          background-size: contain;
+      }
+      .box_download{
+          margin-top: 10%;
+           margin-bottom: 10%;
+     }
+}
+
+@media (min-width: 768px) { 
+     .margin_info_news {
+          margin-top: 3%;
+      }
+      .position_cover {
+          position: absolute;
+          top: 25%;
+      }
+      .margin_more_news {
+          margin-top: -1%;
+          margin-bottom: 0%;
+      }
+      .box_download {
+          margin-top: 3%;
+          margin-bottom: 3%;
+      }
+}
+
+@media (min-width: 1024px) { 
+     .position_cover {
+          position: absolute;
+          top: 30%;
+      }
+}
+ 
+
+ @media (min-width: 1440px) { 
+     .position_cover{
+          position: absolute;
+          top: 35%;
+     }
+      .margin_info_news {
+          margin-top: 10%;
+      }
+}
+
+
+ @media (min-width: 1900px) {
+     /* .margin_info_news {
+          margin-top: 10%;
+      } */
+      .box_download{
+          margin-top: 3%;
+          margin-bottom: 3%;
+     }
+     .position_cover{
+          position: absolute;
+          top: 35%;
+     }
+     .margin_info_news{
+          margin-top: 13%;
+     }
+     .box_test{
+          width: 1320px;
+     }
+     .box_info_news{
+          width: 100%;
+          height: 519px;
+     }
+     /* .position_icon{
+          position: absolute;
+           top: 10%;
+     } */
+ }
+
