@@ -16,6 +16,8 @@
      --text-week:#495057;
      --bg-cover-new:#00B9AE;
      --btn-hover:#48b9b2;
+     --text-more-book:#2A848A;
+     --bg-more-book:#E9ECEF;
      --bg-main: url(../image/bg/bg.svg);
 
 
@@ -34,6 +36,7 @@ body{
      font-family: 'Prompt', sans-serif;
      font-size: 16px;
 }
+
 .menu_text_color li a{
      color: var(--btn-whtie);
 }

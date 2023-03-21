@@ -89,7 +89,7 @@
      </div>
      <div class="row">
           <div class="d-flex justify-content-center btn btn-light btn_more">
-              <a href="http://" target="_blank" title="อ่านเพิ่มเติม">
+              <a href="more_book.php" target="_blank" title="อ่านเพิ่มเติม">
                     <p class="but_more">อ่านเพิ่มเติม</p>
               </a>
           </div>

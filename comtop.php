@@ -11,6 +11,7 @@
     <link href="css/more_news.css" rel="stylesheet"> 
     <link href="css/login.css" rel="stylesheet"> 
     <link href="css/info_news.css" rel="stylesheet"> 
+    <link href="css/more_book.css" rel="stylesheet"> 
 
     <link rel="icon" href="icon/favicon.ico">
 
