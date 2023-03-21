@@ -42,7 +42,7 @@
             </a>
           </div>
           <div class="m-1">
-               <button type="button" class="btn btn-white">
+               <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <img src="icon/user-solid.svg" title="ข้อมูลส่วนตัว" alt="">
                </button>
           </div>
@@ -50,3 +50,73 @@
     </div>
   </div>
 </nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content shadow-lg p-4  bg-white rounded">
+          <div class="row">
+              <div class="col-xl-12 text-center">
+                  <h1 class="h_login">ห้องสมุด<br>กรมธนารักษ์</h1>
+              </div>
+          </div>
+          <div class="row">
+             <div class="col-xl-12">
+                <div class="input-group has-validation mb-1">
+                    <span class="input-group-text" id="inputGroupPrepend">
+                      <img src="icon/Vector.svg" alt="">
+                    </span>
+                       <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+             <div class="col-xl-12">
+                <div class="input-group has-validation mb-1">
+                    <span class="input-group-text" id="inputGroupPrepend">
+                        <img src="icon/login.svg" alt="">
+                    </span>
+                    <input type="password" class="form-control pass-swap" placeholder="Password">
+                      <span class="input-group-text input-group-append" id="inputGroupPrepend">
+                              <i class="fa fa-eye icon_eye"></i>
+                      </span>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-xl-12 text-center mt-1">
+                     <a href=""><p class="forgot_password m-0">? ลืมรหัสผ่าน</p></a>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-xl-12">
+                 <div class="form-check check_login">
+                  <input class="form-check-input pass-swap" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        ยอมรับข้อปฏิบัติตามเงื่อนไข
+                    </label>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-xl-12 text-center">
+                 <button type="submit" class="btn btn_login"><a href="#"> เข้าสุ่ระบบ </a></button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+$(function(){
+     // กรณีใช้ร่วมกับ bootstrap และ fontawesome 
+     $(document.body).on("click","[class*='fa-eye']",function(){
+         $(this).toggleClass("fa-eye-slash fa-eye");  
+         let ele = $(this).closest(".input-group-append").siblings(".pass-swap");
+         let swap_attr = (ele.attr("type")=="password")?"text":"password";
+         ele.attr("type",swap_attr);         
+     });     
+});
+</script>

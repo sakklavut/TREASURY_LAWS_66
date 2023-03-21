@@ -7,7 +7,8 @@
      <div class="row">
           <div class="col-xl-3 col-6 col-sm-3">
                <div>
-                    <img class="cover_new" src="image/book/book_1.svg" alt="">
+                    <h1 id="random-element"></h1>
+                    <img class="cover_new" src="image/book/book_1.svg"  alt="">
                     <div class="d-flex justify-content-end box_view">
                          <div class="me-2">
                               <img src="icon/icon_eye_book.svg" alt="">
@@ -94,3 +95,29 @@
           </div>
      </div>
 </div>
+
+
+
+<!-- <h1 id="random-element"></h1> -->
+    <!-- <button id="reset-btn">Reset</button> -->
+
+    
+
+    <script>
+        const elements = ['image/test_random.png', "Banana", "Cherry", "Durian", "Elderberry"];
+        const randomElement = document.getElementById("random-element");
+        const resetBtn = document.getElementById("reset-btn");
+  
+        function selectRandomElement() {
+          const randomIndex = Math.floor(Math.random() * elements.length);
+          const randomValue = elements[randomIndex];
+          randomElement.textContent = randomValue;
+        }
+  
+        selectRandomElement();
+  
+        resetBtn.addEventListener("click", () => {
+          selectRandomElement();
+          window.location.reload(); // Reset the browser
+        });
+      </script>

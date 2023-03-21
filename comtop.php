@@ -9,12 +9,14 @@
     <link href="css/search_book.css" rel="stylesheet"> 
     <link href="css/search_advance.css" rel="stylesheet"> 
     <link href="css/more_news.css" rel="stylesheet"> 
-
+    <link href="css/login.css" rel="stylesheet"> 
     <link href="css/info_news.css" rel="stylesheet"> 
 
     <link rel="icon" href="icon/favicon.ico">
 
-    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" >
+
+
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 

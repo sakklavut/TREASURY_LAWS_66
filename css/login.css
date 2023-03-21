@@ -1,0 +1,49 @@
+.btn_login{
+     background-color: var(--btn-search);
+     /* color: var(--text-search); */
+     width: 50%;
+     height: 141%;
+     font-weight: 600;
+     border-radius: 90px;
+     padding: 0px;
+}
+.h_login{
+     color: var(--text-color);
+     font-size: 30px;
+     font-weight: 900;
+}
+.forgot_password{
+     color: var(--text-color);
+}
+.icon_eye{
+     color: var(--text-color);
+}
+@media (min-width: 320px) {
+     .check_login{
+          margin-left: 10%;
+     }
+ }
+
+ @media (min-width: 768px) {
+     .check_login{
+          margin-left: 25%;
+     }
+ }
+ @media (min-width: 1024px) {
+     .check_login{
+          margin-left: 25%;
+     }
+ }
+ @media (min-width: 1440px) {
+     .check_login{
+          margin-left: 27%;
+     }
+ }
+
+@media (min-width: 1900px) {
+     .check_login{
+          margin-left: 26%;
+     }
+ }
+
+
