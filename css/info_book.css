@@ -1,0 +1,259 @@
+:root {
+     --bg-info-book: url(../image/book/bg_book.svg);
+     --text-download:#037171;
+
+     --text_info_book:#037171;
+     --text_Status_green:#037171;
+     --text_Status_org:#EF7300;
+     --text_Status_bule:#0047FF;
+}
+
+@media (min-width: 320px) { 
+     .btn_info_book {
+          background-color: var(--btn-search);
+          /* color: var(--text-search); */
+          width: 100%;
+          height: 141%;
+          font-weight: 600;
+          border-radius: 90px;
+          padding: 0px;
+      }
+     .bg_info_book {
+          background-image: var(--bg-info-book);
+          width: 100%;
+          height: 23vh;
+          /* filter: blur(11px); */
+          background-repeat: no-repeat;
+          background-size: contain;
+      }
+      .h_text_info_book{
+          color: #fff;
+          font-size: 10px;
+          margin: 0px;
+      }
+      .d_text_info_book{
+          font-size: 10px;
+      }
+      .all_icon_info_book{
+          font-size: 10px;
+      }
+      .bg_table{
+          background-color: #00b9ae;
+      }
+      .bg_table tr th {
+          color: #fff;
+      }
+     .text_Status_green{
+          color: var(--text_Status_green);
+     }
+     .text_Status_org{
+          color: var(--text_Status_org);
+     }
+     .text_Status_bule{
+          color: var(--text_Status_bule);
+     }
+     .text_info_book{
+          color: var(--text_info_book);
+     }
+ }
+ 
+ 
+ @media (min-width: 768px) { 
+     .btn_info_book {
+          background-color: var(--btn-search);
+          /* color: var(--text-search); */
+          width: 100%;
+          height: 141%;
+          font-weight: 600;
+          border-radius: 90px;
+          padding: 0px;
+      }
+      .bg_info_book {
+          background-image: var(--bg-info-book);
+          width: 100%;
+          height: 57vh;
+          /* filter: blur(11px); */
+          background-repeat: no-repeat;
+          background-size: contain;
+      }
+      .h_text_info_book {
+          color: #fff;
+          font-size: 26px;
+          margin: 0px;
+      }
+      .d_text_info_book {
+          font-size: 19px;
+      }
+      .all_icon_info_book{
+          font-size: 10px;
+      }
+      .bg_table{
+          background-color: #00b9ae;
+      }
+      .bg_table tr th {
+          color: #fff;
+      }
+     .text_Status_green{
+          color: var(--text_Status_green);
+     }
+     .text_Status_org{
+          color: var(--text_Status_org);
+     }
+     .text_Status_bule{
+          color: var(--text_Status_bule);
+     }
+     .text_info_book{
+          color: var(--text_info_book);
+     }
+ }
+
+
+ @media (min-width: 1024px) { 
+     .btn_info_book {
+          background-color: var(--btn-search);
+          /* color: var(--text-search); */
+          width: 100%;
+          height: 141%;
+          font-weight: 600;
+          border-radius: 90px;
+          padding: 0px;
+      }
+      .bg_info_book {
+          background-image: var(--bg-info-book);
+          width: 100%;
+          height: 105vh;
+          /* filter: blur(11px); */
+          background-repeat: no-repeat;
+          background-size: contain;
+      }
+      .h_text_info_book {
+          color: #fff;
+          font-size: 35px;
+          margin: 0px;
+      }
+      .d_text_info_book {
+          font-size: 10px;
+      }
+      .all_icon_info_book{
+          font-size: 10px;
+      }
+      .bg_table{
+          background-color: #00b9ae;
+      }
+      .bg_table tr th {
+          color: #fff;
+      }
+     .text_Status_green{
+          color: var(--text_Status_green);
+     }
+     .text_Status_org{
+          color: var(--text_Status_org);
+     }
+     .text_Status_bule{
+          color: var(--text_Status_bule);
+     }
+     .text_info_book{
+          color: var(--text_info_book);
+     }
+ }
+
+
+
+
+
+
+ @media (min-width: 1440px) { 
+     .position_cover {
+          position: absolute;
+          top: 35%;
+          /* width: 200px; */
+          width: 93%;
+      }
+      .btn_info_book {
+          /* background-image: var(--bg-info-book); */
+          width: 100%;
+          height: 6vh;
+          /* filter: blur(11px); */
+          background-repeat: no-repeat;
+          background-size: contain;
+      }
+      .h_text_info_book {
+          color: #fff;
+          font-size: 58px;
+          margin: 0px;
+      }
+      .d_text_info_book {
+          font-size: 17px;
+      }
+      .bg_table{
+          background-color: #00b9ae;
+      }
+      .bg_table tr th {
+          color: #fff;
+      }
+     .text_Status_green{
+          color: var(--text_Status_green);
+     }
+     .text_Status_org{
+          color: var(--text_Status_org);
+     }
+     .text_Status_bule{
+          color: var(--text_Status_bule);
+     }
+     .text_info_book{
+          color: var(--text_info_book);
+     }
+ }
+ 
+
+ @media (min-width: 1900px) { 
+     .position_cover {
+          position: absolute;
+          top: 35%;
+          /* width: 200px; */
+          width: 65%;
+      }
+      .btn_info_book {
+          /* background-image: var(--bg-info-book); */
+          width: 100%;
+          height: 6vh;
+          /* filter: blur(11px); */
+          background-repeat: no-repeat;
+          background-size: contain;
+      }
+      .bg_info_book {
+          background-image: var(--bg-info-book);
+          width: 100%;
+          height: 81vh;
+          /* filter: blur(11px); */
+          background-repeat: no-repeat;
+          background-size: contain;
+      }
+      .h_text_info_book {
+          color: #fff;
+          font-size: 58px;
+          margin: 0px;
+      }
+      .d_text_info_book {
+          font-size: 17px;
+      }
+      .bg_table{
+          background-color: #00b9ae;
+      }
+      .bg_table tr th {
+          color: #fff;
+      }
+     .text_Status_green{
+          color: var(--text_Status_green);
+     }
+     .text_Status_org{
+          color: var(--text_Status_org);
+     }
+     .text_Status_bule{
+          color: var(--text_Status_bule);
+     }
+     .text_info_book{
+          color: var(--text_info_book);
+     }
+ }
+ 

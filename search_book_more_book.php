@@ -215,7 +215,7 @@
                                                   </div>
                                                   <div>
                                                        <div>
-                                                            <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
+                                                            <a href="info_book.php" target="_blank" title="Lorem Ipsum is simply dummy text">
                                                                  <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
                                                             </a>  
                                                        </div>
