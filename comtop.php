@@ -12,7 +12,10 @@
     <link href="css/login.css" rel="stylesheet"> 
     <link href="css/info_news.css" rel="stylesheet">
     <link href="css/info_book.css" rel="stylesheet">  
-    <link href="css/more_book.css" rel="stylesheet"> 
+    <link href="css/more_book.css" rel="stylesheet">
+    <link href="css/profile.css" rel="stylesheet">
+
+
 
     <link rel="icon" href="icon/favicon.ico">
 

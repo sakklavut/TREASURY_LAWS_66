@@ -23,7 +23,7 @@
           <a class="nav-link" aria-current="page" href="#" title="โครงสร้างห้องสมุด">โครงสร้างห้องสมุด</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"title="หนังสือทั้งหมด" >หนังสือทั้งหมด</a>
+          <a class="nav-link" href="more_book.php"title="หนังสือทั้งหมด" >หนังสือทั้งหมด</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" title="แนะนำหนังสือ/สอบถาม" >แนะนำหนังสือ/สอบถาม</a>

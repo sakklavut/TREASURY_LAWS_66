@@ -1,0 +1,48 @@
+:root {
+     --bg-profile: url(../image/profile/bg_profile.svg);
+     --text_profile:#037171;
+
+}
+
+@media (min-width: 320px) { 
+     .bg_profile{
+          background-image: var(--bg-profile);
+          width: 100%;
+          height: 23vh;
+          /* filter: blur(11px); */
+          background-repeat: no-repeat;
+          background-size: contain;
+      }
+      .img_profile{
+          width: 20%;
+          border: 2px solid;
+      }
+ }
+ 
+ 
+ @media (min-width: 1900px) { 
+     .bg_profile {
+          background-image: var(--bg-profile);
+          width: 100%;
+          height: 84vh;
+          /* filter: blur(11px); */
+          background-repeat: no-repeat;
+          background-size: contain;
+      }
+      .img_profile {
+          width: 50%;
+          margin-top: 39%;
+          border: 2px solid;
+      }
+      .text_profile {
+         color: var(--text_profile);
+         font-weight: 900;
+         font-size: 39px;
+      }
+      .margin_tab_content{
+          margin-top: 42%;
+      }      
+ }
+ 
+ 
+ 
