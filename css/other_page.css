@@ -1,0 +1,26 @@
+.bg_top_Other {
+     background-image: url(../image/bg/bg-other.svg);
+     width: 100%;
+     height: 230px;
+     object-fit: cover;
+     object-position: bottom;
+ }
+ .txt-white{
+     color: #fff;
+ }
+ .text_contact{
+     color: #037171;
+ }
+
+ 
+ .but_recommend{
+     background-color: var(--btn-search);
+     /* color: var(--text-search); */
+     height: 100%;
+     font-weight: 600;
+     padding: 10px;
+     margin-top: 10px;
+ }
+ .but_recommend:hover{
+     color: #666;
+ }

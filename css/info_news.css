@@ -93,6 +93,18 @@
 
 
  @media (min-width: 1900px) {
+    .bg_info_news {
+        background-image: var(--bg-info-news);
+        width: 100%;
+        height: 100vh;
+        /* filter: blur(11px); */
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .margin_more_news {
+        margin-top: -18%;
+        margin-bottom: 0%;
+    }
      /* .margin_info_news {
           margin-top: 10%;
       } */

@@ -14,8 +14,7 @@
     <link href="css/info_book.css" rel="stylesheet">  
     <link href="css/more_book.css" rel="stylesheet">
     <link href="css/profile.css" rel="stylesheet">
-
-
+    <link href="css/other_page.css" rel="stylesheet">
 
     <link rel="icon" href="icon/favicon.ico">
 

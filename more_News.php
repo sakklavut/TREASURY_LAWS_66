@@ -1,7 +1,7 @@
 <?php include('comtop.php'); ?>
 <?php include('header.php'); ?>
 
-<div class="container margin_more_news">
+<div class="container margin_more_news_1">
      <div class="row">
           <div class="col-xl-12">
                <h1 class="text_search">กิจกรรมของพวกเรา</h1>

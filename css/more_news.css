@@ -1,6 +1,10 @@
 .showme {
      display: none;
    }
+.margin_more_news_1{
+     margin-top: 2%;
+    margin-bottom: 0%;
+}
    .showhim:hover .showme {
      display: block;
      background-color: var(--bg-cover-new);

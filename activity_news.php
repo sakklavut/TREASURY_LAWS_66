@@ -9,7 +9,7 @@
                <div class="card">
                     <img  class="cover_new"  src="image/new/cover_new.svg" alt="">
                     <div class="box_new">
-                              <a href="http://" target="_blank"><p class="cover_new_heading" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></a>
+                              <a href="info_news.php" target="_blank"><p class="cover_new_heading" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></a>
                               <div class="d-flex">
                                    <div class="m-0">
                                         <img class="icon_eye" src="icon/eye-solid.svg" alt="">
@@ -33,7 +33,7 @@
                          <div class="card margin_new">
                                <img  class="cover_new"  src="image/new/cover_new_1.svg" alt="">
                               <div class="box_new_sub">
-                                   <a href="http://" target="_blank"><p class="cover_new_heading" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></a>
+                                   <a href="info_news.php" target="_blank"><p class="cover_new_heading" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></a>
                                    <div class="d-flex">
                                         <div class="m-0">
                                              <img class="icon_eye" src="icon/eye-solid.svg" alt="">
