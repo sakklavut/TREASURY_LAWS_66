@@ -15,7 +15,7 @@
                <div class="col-xl-8 col-sm-8 margin_info_news">
                    <div class="row">
                          <div class="col-xl-12">
-                              <h4 class="text-white">
+                              <h4 class="h_info_news">
                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                               </h4>
                          </div>
@@ -24,15 +24,15 @@
                          <div class="col-xl-12">
                              <div class="d-flex">
                                    <div class="p-1">
-                                        <img src="icon/eye-solid_info.svg" alt="">
+                                        <img src="icon/eye-solid_info.svg" class="h_info_news"  alt="">
                                    </div>
-                                   <div class="p-1 text-white">
+                                   <div class="p-1 h_info_news">
                                         23
                                    </div>
                                    <div class="p-1">
-                                        <img src="icon/calendar-regular_info.svg" alt="">
+                                        <img src="icon/calendar-regular_info.svg" class="h_info_news" alt="">
                                    </div>
-                                   <div class="p-1 text-white">
+                                   <div class="p-1 h_info_news">
                                          2 มี.ค. 2566
                                    </div>
                              </div>
@@ -62,10 +62,10 @@
      </div>
      <div class="row">
           <div class="col-xl-4 col-4">
-            <img class="cover_new " src="image/new/cover_info_new_1.svg" alt="">
+            <img class="cover_new fullscreen-img" src="image/new/cover_info_new_1.svg" alt="">
           </div>
           <div class="col-xl-4 col-4">
-            <img class="cover_new " src="image/new/cover_info_new_2.svg" alt="">
+            <img class="cover_new fullscreen-img" src="image/new/cover_info_new_2.svg" alt="">
           </div>
           <div class="col-xl-4 col-4">
             <img class="cover_new " src="image/new/cover_info_new_3.svg" alt="">
@@ -75,7 +75,7 @@
 <div class="container box_download">
      <div class="row">
                <div class="col-xl-12 ">
-                    <h4 class="text_download">เอกสาร Download</h4>
+                    <h4 class="text_download mb-3">เอกสาร Download</h4>
                </div>
           </div>
           <div class="row">
@@ -106,7 +106,12 @@
           </div>
 </div>
 
-
+<script>
+     const img = document.querySelector('.fullscreen-img');
+     img.addEventListener('click', function() {
+          img.classList.toggle('active');
+     });
+</script>
 
 <?php include('footer.php'); ?>
 <?php include('combottom.php'); ?>

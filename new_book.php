@@ -7,11 +7,10 @@
      <div class="row">
           <div class="col-xl-3 col-6 col-sm-3">
                <div>
-                    <h1 id="random-element"></h1>
                     <img class="cover_new" src="image/book/book_1.svg"  alt="">
                     <div class="d-flex justify-content-end box_view">
                          <div class="me-2">
-                              <img src="icon/icon_eye_book.svg" alt="">
+                              <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
                          </div>
                          <div>
                               <p class="view">25</p>
@@ -20,7 +19,9 @@
                     <div>
                         <div>
                               <a href="info_book.php" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                   <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                                   <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                   </p>
                               </a>                           
                         </div> 
                     </div>
@@ -31,7 +32,7 @@
                     <img  class="cover_new" src="image/book/book_2.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
                          <div class="me-2"> 
-                              <img src="icon/icon_eye_book.svg" alt="">
+                              <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
                          </div>
                          <div>
                              <p class="view">25</p>
@@ -40,7 +41,9 @@
                     <div>
                         <div>
                               <a href="info_book.php" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                   <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                                    <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                   </p>
                               </a>       
                         </div> 
                     </div>
@@ -51,7 +54,7 @@
                     <img class="cover_new" src="image/book/book_3.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
                          <div class="me-2">
-                              <img src="icon/icon_eye_book.svg" alt="">
+                              <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
                          </div>
                          <div>
                              <p class="view">25</p>
@@ -60,7 +63,9 @@
                     <div>
                         <div>
                               <a href="info_book.php" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                   <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                                    <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                   </p>
                               </a>  
                         </div> 
                     </div>
@@ -71,7 +76,7 @@
                     <img class="cover_new" src="image/book/book_4.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
                          <div class="me-2">
-                              <img src="icon/icon_eye_book.svg" alt="">
+                              <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
                          </div>
                          <div>
                              <p class="view">25</p>
@@ -80,7 +85,9 @@
                     <div>
                         <div>
                               <a href="info_book.php" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                   <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
+                                   <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                   </p>
                               </a>  
                         </div> 
                     </div>
@@ -98,26 +105,4 @@
 
 
 
-<!-- <h1 id="random-element"></h1> -->
-    <!-- <button id="reset-btn">Reset</button> -->
 
-    
-
-    <script>
-        const elements = ['image/test_random.png', "Banana", "Cherry", "Durian", "Elderberry"];
-        const randomElement = document.getElementById("random-element");
-        const resetBtn = document.getElementById("reset-btn");
-  
-        function selectRandomElement() {
-          const randomIndex = Math.floor(Math.random() * elements.length);
-          const randomValue = elements[randomIndex];
-          randomElement.textContent = randomValue;
-        }
-  
-        selectRandomElement();
-  
-        resetBtn.addEventListener("click", () => {
-          selectRandomElement();
-          window.location.reload(); // Reset the browser
-        });
-      </script>

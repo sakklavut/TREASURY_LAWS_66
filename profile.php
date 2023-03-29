@@ -80,7 +80,7 @@
 							</div>
 						</div>
 					</div>
-               <div class="col-xl-8  col-md-12 col-sm-12 col-12">
+               <div class="col-xl-8 ss col-md-12 col-sm-12 col-12">
                     <div class="row mt-3">
                          <div class="col-xl-12">
                               <div class="row margin_tab_content">

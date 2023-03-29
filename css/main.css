@@ -94,6 +94,7 @@ body{
  }
  .but_more{
      font-weight: 600;
+     font-size: 20px;
      margin: 0px;
      color: var(--text-more)
  }
@@ -160,7 +161,7 @@ body{
         position: absolute;
         opacity: 0.9;
         top: 0%;
-        height: 103%;
+        height: 101%;
         width: 100%;
         padding-left: 15px;
        padding-top: 15px;
@@ -170,20 +171,20 @@ body{
         color: #FFF;
         margin: 0px;
     }
-    .box_new_sub {
-        background-color: var(--bg-cover-new);
-        border-radius: 0px 0px 5px 5px;
-        position: absolute;
-        opacity: 0.9;
-        top: 64%;
-        height: 40%;
-        width: 100%;
-        padding-left: 15px;
-        padding-top: 15px;
-    }
+.box_new_sub {
+    background-color: var(--bg-cover-new);
+    border-radius: 0px 0px 5px 5px;
+    position: absolute;
+    opacity: 0.9;
+    top: 64%;
+    height: 37%;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+}
     .cover_new_heading {
         color: #FFF;
-        font-size: 12px;
+        font-size: 15px;
         margin: 0px;
     }
     .day_cover{
@@ -248,7 +249,7 @@ body{
         margin-top: 25%;
     }
      .text_haeader_card{
-          font-size: 10px;
+            font-size: 15px;
           color: #495057;
           text-align: center;
       }
@@ -307,7 +308,7 @@ body{
           height: auto;
      }
      .margin_more{
-        margin-top: 20px;
+        margin-top:80px;
      }
  }
 
@@ -534,6 +535,9 @@ body{
      
 }
 @media (min-width: 1440px) {
+    .btn_tag {
+        font-size: 18px;
+    }
     .btn_search_main {
         background-color: var(--btn-search);
         color: var(--text-search);
@@ -626,3 +630,26 @@ body{
     }
 }
 
+@media (min-width: 1900px) {
+    .btn_tag {
+        font-size: 18px;
+    }
+    .icon_eye {
+        width: 16px;
+    }
+    .view_new {
+        font-size: 13px;
+        color: #fff;
+        font-weight: 500;
+        padding: 5px;
+    }
+    .day_cover {
+        font-size: 13px;
+        font-weight: 500;
+        color: #fff;
+        margin: 0px;
+        margin-left: 3px;
+        margin-right: 0px;
+        margin-top: 9%;
+    }
+}

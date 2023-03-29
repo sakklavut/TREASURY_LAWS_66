@@ -32,9 +32,6 @@
                                    <div class="p-1">
                                         <img src="icon/calendar-regular_info.svg" alt="">
                                    </div>
-                                   <div class="p-1 text-white">
-                                         2 มี.ค. 2566
-                                   </div>
                              </div>
                          </div>
                    </div>
