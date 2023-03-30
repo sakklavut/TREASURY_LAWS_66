@@ -8,10 +8,8 @@
                     <a href="index.php"><img src="icon/circle-arrow-left-solid.svg" alt=""></a> 
                </div>
           </div>
-
-
           <div class="row">
-               <div class="col-xl-4 col-md-12 col-sm-12 col-12 ">
+               <div class="col-xl-4 col-md-4 col-sm-12 col-12 ">
                   <div class="row">
                               <div class="col-xl-12">
                                    <div class="row">
@@ -80,7 +78,7 @@
 							</div>
 						</div>
 					</div>
-               <div class="col-xl-8 ss col-md-12 col-sm-12 col-12">
+               <div class="col-xl-8 col-md-8 col-sm-12 col-12">
                     <div class="row mt-3">
                          <div class="col-xl-12">
                               <div class="row margin_tab_content">

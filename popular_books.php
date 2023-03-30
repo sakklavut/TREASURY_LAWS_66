@@ -18,8 +18,8 @@
                     </div>
                     <div>
                          <div>
-                                   <p class="text_haeader_card">
-                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                  <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",0,-40);?> 
                                    </p>
                          </div> 
                     </div>
@@ -38,8 +38,8 @@
                     </div>
                     <div>
                          <div>
-                                    <p class="text_haeader_card">
-                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                   <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",0,-40);?> 
                                    </p>
                          </div> 
                     </div>
@@ -58,8 +58,8 @@
                     </div>
                     <div>
                          <div>
-                              <p class="text_haeader_card">
-                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                   <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",0,-40);?> 
                                    </p>
                          </div> 
                     </div>
@@ -79,7 +79,7 @@
                     <div>
                          <div>
                                     <p class="text_haeader_card">
-                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",0,-40);?> 
                                    </p>
                          </div> 
                     </div>
@@ -98,8 +98,8 @@
                     </div>
                     <div>
                          <div>
-                                    <p class="text_haeader_card">
-                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                   <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",0,-40);?> 
                                    </p>
                          </div> 
                     </div>
@@ -118,8 +118,8 @@
                     </div>
                     <div>
                          <div>
-                                   <p class="text_haeader_card">
-                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",0,-40);?> 
                                    </p>
                          </div> 
                     </div>
@@ -138,8 +138,8 @@
                     </div>
                     <div>
                          <div>
-                                    <p class="text_haeader_card">
-                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                   <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",0,-40);?> 
                                    </p>
                          </div> 
                     </div>
@@ -159,7 +159,7 @@
                     <div>
                          <div>
                                    <p class="text_haeader_card">
-                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",0,-40);?> 
                                    </p>
                          </div> 
                     </div>
@@ -179,7 +179,7 @@
                     <div>
                          <div>
                                    <p class="text_haeader_card">
-                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",0,-40);?> 
                                    </p>
                          </div> 
                     </div>
@@ -198,8 +198,8 @@
                     </div>
                     <div>
                          <div>
-                                   <p class="text_haeader_card">
-                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",-60);?> 
+                              <p class="text_haeader_card">
+                                        <?php echo substr("Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",0,-40);?> 
                                    </p>
                          </div> 
                     </div>

@@ -9,10 +9,10 @@
                </div>
           </div>
           <div class="row position_cover">
-               <div class="col-xl-4 col-sm-4"> 
+               <div class="col-xl-6 col-sm-6"> 
                      <img class="cover_new " src="image/new/cover_info_.svg" alt="">
                </div>
-               <div class="col-xl-8 col-sm-8 margin_info_news">
+               <div class="col-xl-6 col-sm-6 margin_info_news">
                    <div class="row">
                          <div class="col-xl-12">
                               <h4 class="h_info_news">
@@ -81,7 +81,7 @@
           <div class="row">
                <div class="col-xl-12 col-12 shadow-sm">
                <div class="row">
-                    <div class="col-xl-1 col-2 col-md-1 p-1">
+                    <div class="col-xl-1 col-2 col-md-1 p-1 text-center">
                          <img src="icon/Download pdf.svg" alt="">
                     </div>
                     <div class="col-xl-11 col-10 col-md-11">
@@ -106,12 +106,12 @@
           </div>
 </div>
 
-<script>
+<!-- <script>
      const img = document.querySelector('.fullscreen-img');
      img.addEventListener('click', function() {
           img.classList.toggle('active');
      });
-</script>
+</script> -->
 
 <?php include('footer.php'); ?>
 <?php include('combottom.php'); ?>

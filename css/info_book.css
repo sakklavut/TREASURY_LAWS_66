@@ -12,7 +12,7 @@
      .btn_info_book {
           background-color: var(--btn-search);
           /* color: var(--text-search); */
-          width: 100%;
+          width: 188%;
           height: 141%;
           font-weight: 600;
           border-radius: 90px;
@@ -121,7 +121,7 @@
       .bg_info_book {
           background-image: var(--bg-info-book);
           width: 100%;
-          height: 105vh;
+          height: 79vh;
           /* filter: blur(11px); */
           background-repeat: no-repeat;
           background-size: contain;
@@ -203,6 +203,14 @@
      .text_info_book{
           color: var(--text_info_book);
      }
+     .bg_info_book {
+        background-image: var(--bg-info-book);
+        width: 100%;
+        height: 101vh;
+        /* filter: blur(11px); */
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
  }
  
 

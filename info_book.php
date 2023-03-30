@@ -29,9 +29,6 @@
                                    <div class="p-1 text-white">
                                         23
                                    </div>
-                                   <div class="p-1">
-                                        <img src="icon/calendar-regular_info.svg" alt="">
-                                   </div>
                              </div>
                          </div>
                    </div>
@@ -233,11 +230,11 @@
           </div>
      </div>
      <div class="row">
-          <div class="col-xl-3 col-sm-3">
+          <div class="col-xl-3 col-sm-3 col-6">
                <div>
                     <img class="cover_new" src="image/book/book_4.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
-                         <div class="me-2">
+                         <div class="me-2 margin_icon">
                               <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
@@ -253,11 +250,11 @@
                     </div>
                </div>
           </div>
-          <div class="col-xl-3 col-sm-3">
+          <div class="col-xl-3 col-sm-3 col-6">
                <div>
                     <img class="cover_new" src="image/book/book_4.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
-                         <div class="me-2">
+                         <div class="me-2 margin_icon">
                               <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
@@ -273,11 +270,11 @@
                     </div>
                </div>
           </div>
-          <div class="col-xl-3 col-sm-3">
+          <div class="col-xl-3 col-sm-3 col-6">
                <div>
                     <img class="cover_new" src="image/book/book_4.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
-                         <div class="me-2">
+                         <div class="me-2 margin_icon">
                               <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>
@@ -293,11 +290,11 @@
                     </div>
                </div>
           </div>
-          <div class="col-xl-3 col-sm-3">
+          <div class="col-xl-3 col-sm-3 col-6">
                <div>
                     <img class="cover_new" src="image/book/book_4.svg" alt="">
                     <div class="d-flex justify-content-end box_view">
-                         <div class="me-2">
+                         <div class="me-2 margin_icon">
                               <img src="icon/icon_eye_book.svg" alt="">
                          </div>
                          <div>

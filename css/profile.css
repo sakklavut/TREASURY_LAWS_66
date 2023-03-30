@@ -41,6 +41,15 @@
     padding: 8px;
 }
 @media (min-width: 320px) { 
+    .already{
+        color: var(--org);
+      }
+      .borrowing{
+        color: var(--bule);
+      }
+      .past{
+        color:var(--rad)
+      }
     .img_profile {
         width: 30%;
         border: 2px solid;
@@ -116,6 +125,9 @@
     }
     .margin_tab_content {
         margin-top: 30%;
+    }
+    .widit_tabe{
+        width: 25%;
     }
  }
  
