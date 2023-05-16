@@ -209,7 +209,6 @@
 </div>
 
 
-
 <script>
   $('#popular_books').owlCarousel({
     loop:true,

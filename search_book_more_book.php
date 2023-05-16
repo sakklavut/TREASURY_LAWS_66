@@ -2614,187 +2614,311 @@
                                    </div>
                               </div>
                               <div class="tab-pane fade" id="tab_13" role="tabpanel"  tabindex="0">
-                              <div class="row">
-                                        <div class="col-xl-4 col-sm-4 col-md-4 col-12">
-                                             <div>
-                                                  <img  class="cover_new" src="image/book/book_2.svg" alt="">
-                                                  <div class="d-flex justify-content-end box_view">
-                                                       <div class="me-2"> 
-                                                            <img src="icon/icon_eye_book.svg" alt="">
-                                                       </div>
-                                                       <div>
-                                                             <p class="view">25</p>
-                                                        </div>
-                                                  </div>
-                                                  <div>
-                                                       <div>
-                                                            <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                                                 <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
-                                                            </a>  
+                                   <div class="row">
+                                        <div class="col-xl-12 col-12 col-md-12">
+                                             <div class="shadow-sm p-3 mb-2 bg-white rounded">
+                                                  <div class="row">
+                                                       <div class="col-xl-12">
+                                                            <h4>
+                                                                 ผลงานวิชาการ 1
+                                                            </h4>
                                                        </div>
                                                   </div>
-                                             </div>
-                                        </div>
-                                        <div class="col-xl-4 col-sm-4 col-md-4 col-12">
-                                             <div>
-                                                  <img  class="cover_new" src="image/book/book_2.svg" alt="">
-                                                  <div class="d-flex justify-content-end box_view">
-                                                       <div class="me-2"> 
-                                                            <img src="icon/icon_eye_book.svg" alt="">
-                                                       </div>
-                                                       <div>
-                                                             <p class="view">25</p>
-                                                        </div>
-                                                  </div>
-                                                  <div>
-                                                       <div>
-                                                            <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                                                 <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
-                                                            </a>  
-                                                       </div>
-                                                  </div>
-                                             </div>
-                                        </div>
-                                        <div class="col-xl-4 col-sm-4 col-md-4 col-12">
-                                             <div>
-                                                  <img  class="cover_new" src="image/book/book_2.svg" alt="">
-                                                  <div class="d-flex justify-content-end box_view">
-                                                       <div class="me-2"> 
-                                                            <img src="icon/icon_eye_book.svg" alt="">
-                                                       </div>
-                                                       <div>
-                                                             <p class="view">25</p>
-                                                        </div>
-                                                  </div>
-                                                  <div>
-                                                       <div>
-                                                            <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                                                 <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
-                                                            </a>  
-                                                       </div>
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                                   <div class="row ">
-                                        <div class="col-xl-4 col-sm-4 col-md-4 col-12">
-                                             <div>
-                                                  <img  class="cover_new" src="image/book/book_2.svg" alt="">
-                                                  <div class="d-flex justify-content-end box_view">
-                                                       <div class="me-2"> 
-                                                            <img src="icon/icon_eye_book.svg" alt="">
-                                                       </div>
-                                                       <div>
-                                                             <p class="view">25</p>
-                                                        </div>
-                                                  </div>
-                                                  <div>
-                                                       <div>
-                                                            <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                                                 <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
-                                                            </a>  
-                                                       </div>
-                                                  </div>
-                                             </div>
-                                        </div>
-                                        <div class="col-xl-4 col-sm-4 col-md-4 col-12">
-                                             <div>
-                                                  <img  class="cover_new" src="image/book/book_2.svg" alt="">
-                                                  <div class="d-flex justify-content-end box_view">
-                                                       <div class="me-2"> 
-                                                            <img src="icon/icon_eye_book.svg" alt="">
-                                                       </div>
-                                                       <div>
-                                                             <p class="view">25</p>
-                                                        </div>
-                                                  </div>
-                                                  <div>
-                                                       <div>
-                                                            <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                                                 <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
-                                                            </a>  
-                                                       </div>
-                                                  </div>
-                                             </div>
-                                        </div>
-                                        <div class="col-xl-4 col-sm-4 col-md-4 col-12">
-                                             <div>
-                                                  <img  class="cover_new" src="image/book/book_2.svg" alt="">
-                                                  <div class="d-flex justify-content-end box_view">
-                                                       <div class="me-2"> 
-                                                            <img src="icon/icon_eye_book.svg" alt="">
-                                                       </div>
-                                                       <div>
-                                                             <p class="view">25</p>
-                                                        </div>
-                                                  </div>
-                                                  <div>
-                                                       <div>
-                                                            <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                                                 <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
-                                                            </a>  
+                                                  <div class="row">
+                                                       <div class="col-xl-6">
+                                                            <div class="d-flex">
+                                                                 <div class="me-2">
+                                                                      <p>ชื่อผู้แต่ง</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>นาย MikeMe</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p> 50</p>
+                                                                 </div>
+                                                            </div>
                                                        </div>
                                                   </div>
                                              </div>
                                         </div>
                                    </div>
                                    <div class="row">
-                                        <div class="col-xl-4 col-sm-4 col-md-4 col-12">
-                                             <div>
-                                                  <img  class="cover_new" src="image/book/book_2.svg" alt="">
-                                                  <div class="d-flex justify-content-end box_view">
-                                                       <div class="me-2"> 
-                                                            <img src="icon/icon_eye_book.svg" alt="">
-                                                       </div>
-                                                       <div>
-                                                             <p class="view">25</p>
-                                                        </div>
-                                                  </div>
-                                                  <div>
-                                                       <div>
-                                                            <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                                                 <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
-                                                            </a>  
+                                        <div class="col-xl-12 col-12 col-md-12">
+                                             <div class="shadow-sm p-3 mb-2 bg-white rounded">
+                                                  <div class="row">
+                                                       <div class="col-xl-12">
+                                                            <h4>
+                                                                 ผลงานวิชาการ 2
+                                                            </h4>
                                                        </div>
                                                   </div>
-                                             </div>
-                                        </div>
-                                        <div class="col-xl-4 col-sm-4 col-md-4 col-12">
-                                             <div>
-                                                  <img  class="cover_new" src="image/book/book_2.svg" alt="">
-                                                  <div class="d-flex justify-content-end box_view">
-                                                       <div class="me-2"> 
-                                                            <img src="icon/icon_eye_book.svg" alt="">
-                                                       </div>
-                                                       <div>
-                                                             <p class="view">25</p>
-                                                        </div>
-                                                  </div>
-                                                  <div>
-                                                       <div>
-                                                            <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                                                 <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
-                                                            </a>  
+                                                  <div class="row">
+                                                       <div class="col-xl-6">
+                                                            <div class="d-flex">
+                                                                 <div class="me-2">
+                                                                      <p>ชื่อผู้แต่ง</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>นาย MikeMe</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p> 50</p>
+                                                                 </div>
+                                                            </div>
                                                        </div>
                                                   </div>
                                              </div>
                                         </div>
-                                        <div class="col-xl-4 col-sm-4 col-md-4 col-12">
-                                             <div>
-                                                  <img  class="cover_new" src="image/book/book_2.svg" alt="">
-                                                  <div class="d-flex justify-content-end box_view">
-                                                       <div class="me-2"> 
-                                                            <img src="icon/icon_eye_book.svg" alt="">
+                                   </div>
+                                   <div class="row">
+                                        <div class="col-xl-12 col-12 col-md-12">
+                                             <div class="shadow-sm p-3 mb-2 bg-white rounded">
+                                                  <div class="row">
+                                                       <div class="col-xl-12">
+                                                            <h4>
+                                                                 ผลงานวิชาการ 3
+                                                            </h4>
                                                        </div>
-                                                       <div>
-                                                             <p class="view">25</p>
-                                                        </div>
                                                   </div>
-                                                  <div>
-                                                       <div>
-                                                            <a href="http://" target="_blank" title="Lorem Ipsum is simply dummy text">
-                                                                 <p class="text_haeader_card">Lorem Ipsum is simply dummy text</p>
-                                                            </a>  
+                                                  <div class="row">
+                                                       <div class="col-xl-6">
+                                                            <div class="d-flex">
+                                                                 <div class="me-2">
+                                                                      <p>ชื่อผู้แต่ง</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>นาย MikeMe</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p> 50</p>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="row">
+                                        <div class="col-xl-12 col-12 col-md-12">
+                                             <div class="shadow-sm p-3 mb-2 bg-white rounded">
+                                                  <div class="row">
+                                                       <div class="col-xl-12">
+                                                            <h4>
+                                                                 ผลงานวิชาการ 4
+                                                            </h4>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row">
+                                                       <div class="col-xl-6">
+                                                            <div class="d-flex">
+                                                                 <div class="me-2">
+                                                                      <p>ชื่อผู้แต่ง</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>นาย MikeMe</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p> 50</p>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="row">
+                                        <div class="col-xl-12 col-12 col-md-12">
+                                             <div class="shadow-sm p-3 mb-2 bg-white rounded">
+                                                  <div class="row">
+                                                       <div class="col-xl-12">
+                                                            <h4>
+                                                                 ผลงานวิชาการ 5
+                                                            </h4>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row">
+                                                       <div class="col-xl-6">
+                                                            <div class="d-flex">
+                                                                 <div class="me-2">
+                                                                      <p>ชื่อผู้แต่ง</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>นาย MikeMe</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p> 50</p>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="row">
+                                        <div class="col-xl-12 col-12 col-md-12">
+                                             <div class="shadow-sm p-3 mb-2 bg-white rounded">
+                                                  <div class="row">
+                                                       <div class="col-xl-12">
+                                                            <h4>
+                                                                 ผลงานวิชาการ 6
+                                                            </h4>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row">
+                                                       <div class="col-xl-6">
+                                                            <div class="d-flex">
+                                                                 <div class="me-2">
+                                                                      <p>ชื่อผู้แต่ง</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>นาย MikeMe</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p> 50</p>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="row">
+                                        <div class="col-xl-12 col-12 col-md-12">
+                                             <div class="shadow-sm p-3 mb-2 bg-white rounded">
+                                                  <div class="row">
+                                                       <div class="col-xl-12">
+                                                            <h4>
+                                                                 ผลงานวิชาการ 7
+                                                            </h4>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row">
+                                                       <div class="col-xl-6">
+                                                            <div class="d-flex">
+                                                                 <div class="me-2">
+                                                                      <p>ชื่อผู้แต่ง</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>นาย MikeMe</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p> 50</p>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="row">
+                                        <div class="col-xl-12 col-12 col-md-12s">
+                                             <div class="shadow-sm p-3 mb-2 bg-white rounded">
+                                                  <div class="row">
+                                                       <div class="col-xl-12">
+                                                            <h4>
+                                                                 ผลงานวิชาการ 8
+                                                            </h4>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row">
+                                                       <div class="col-xl-6">
+                                                            <div class="d-flex">
+                                                                 <div class="me-2">
+                                                                      <p>ชื่อผู้แต่ง</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>นาย MikeMe</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p> 50</p>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="row">
+                                        <div class="col-xl-12 col-12 col-md-12">
+                                             <div class="shadow-sm p-3 mb-2 bg-white rounded">
+                                                  <div class="row">
+                                                       <div class="col-xl-12">
+                                                            <h4>
+                                                                 ผลงานวิชาการ 9
+                                                            </h4>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row">
+                                                       <div class="col-xl-6">
+                                                            <div class="d-flex">
+                                                                 <div class="me-2">
+                                                                      <p>ชื่อผู้แต่ง</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>นาย MikeMe</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>50</p>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="row">
+                                        <div class="col-xl-12 col-12 col-md-12">
+                                             <div class="shadow-sm p-3 mb-2 bg-white rounded">
+                                                  <div class="row">
+                                                       <div class="col-xl-12">
+                                                            <h4>
+                                                                 ผลงานวิชาการ 10
+                                                            </h4>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row">
+                                                       <div class="col-xl-6">
+                                                            <div class="d-flex">
+                                                                 <div class="me-2">
+                                                                      <p>ชื่อผู้แต่ง</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>นาย MikeMe</p>
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <img src="icon/icon_eye_book.svg" class="icon_eye" alt="">
+                                                                 </div>
+                                                                 <div class="me-2">
+                                                                      <p>50</p>
+                                                                 </div>
+                                                            </div>
                                                        </div>
                                                   </div>
                                              </div>
